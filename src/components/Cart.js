@@ -10,6 +10,7 @@ function Cart() {
   }
   return (
     <div className='cartWrapper'>
+      
       {
         products.map(product=>(
           <div className='cartCard'>
